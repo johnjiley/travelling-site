@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./App.css";
 import Home from "./components/pages/Home";
-import { Routes, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Services from "./components/pages/Services";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
@@ -12,12 +13,23 @@ function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/services" component={Services} />
-        <Route path="/products" component={Products} />
-        <Route path="/signup" component={SignUp} />
-      </Routes>
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/services">
+          <Services />
+        </Route>
+        <Route path="/products">
+          <Products />
+        </Route>
+
+        <Route path="/sign-up">
+          <SignUp />
+        </Route>
+      </Switch>
+
+      <Footer />
     </>
   );
 }
