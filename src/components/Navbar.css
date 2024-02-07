@@ -6,8 +6,10 @@
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
-    top: 0;
+    top: px;
     z-index: 999;
+    padding:10px;
+
   }
   
   .navbar-container {
@@ -16,17 +18,20 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    margin-left: 200px;
+    padding-right: 10px;
   }
 
   .navbar-logo {
     color: #fff;
     justify-self: start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-  align-items: center;
+   align-items: center;
+   padding-right: 200px;
   }
   
   .fa-typo3 {
@@ -47,10 +52,12 @@
     width: 60vw;
     justify-content: end;
     margin-right: 2rem;
+    padding-right: 5px;
   }
   
   .nav-item {
       height: 80px;
+      
   }
   
   .nav-links {
@@ -122,6 +129,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
+      align-items: left;
     }
   
     .menu-icon {
