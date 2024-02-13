@@ -19,7 +19,7 @@ body {
   min-height: 100vh;
   margin: 0;
   background-color: black;
-  background: url('/images/img-1.jpg')no-repeat;
+  /* background: url('/images/img-1.jpg')no-repeat; */
   display: fixed; 
   background-size: cover;
   background-position: center;

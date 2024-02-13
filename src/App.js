@@ -9,6 +9,7 @@ import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import SignupForm from "./components/pages/SignUpForm";
+// import GoogleMap from "./component/pages/GoogleMap";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <SignUp />
         </Route>
       </Switch>
+      {/* <GoogleMap /> */}
 
       {/* <Footer /> */}
     </>

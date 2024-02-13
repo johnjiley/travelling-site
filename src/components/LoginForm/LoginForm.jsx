@@ -4,8 +4,10 @@ import { FaUser, FaLock } from "react-icons/fa";
 
 const LoginForm = () => {
   return (
-    <div className='wrapper'>
-        <form action= "">
+    <div className='wrapper' >
+        {/* <video src="/images/video-3.mp4" autoPlay loop muted /> */}
+        <form action = "">
+        
             <h1>Login</h1>
             <div className= "input-box">
                 <input type="text" placeholder='Username' required />
@@ -28,6 +30,7 @@ const LoginForm = () => {
             <div className="register-link">
                 <p>Don't have an account? < a href = "/">Register</a></p>
             </div>
+            
         </form>
       
     </div>

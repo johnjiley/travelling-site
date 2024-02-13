@@ -11,6 +11,14 @@ function Home() {
       <HeroSection />
       <Cards />
       <Footer />
+      <div className="marquee-container">
+        <div className="marquee">
+          <p>This text will scroll from right to left.</p>
+        </div>
+      </div>
+      <div>
+        <h1>the Google map</h1>
+      </div>
     </>
   );
 }

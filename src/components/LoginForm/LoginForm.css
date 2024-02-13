@@ -1,5 +1,5 @@
 .wrapper {
-	width: 420px;
+	width: 600px;
 	background: transparent;
 	border: 2px solid rgba(255, 255, 255, .2);
 	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
@@ -10,6 +10,7 @@
 	max-width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
+	
 
 }
 
@@ -115,6 +116,6 @@
   
   /* Add the glow effect */
   .btn-login:hover {
-	box-shadow: 0 0 10px rgba(233, 3, 3, 0.8); /* Adjust color and size as needed */
+	box-shadow: 0 0 10px rgba(25, 21, 21, 0.8); /* Adjust color and size as needed */
   }
   
