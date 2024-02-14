@@ -9,7 +9,7 @@ import Footer from "../Footer";
 export default function SignUp() {
   return (
     <>
-      <video src="/images/video-9.mp4" autoPlay loop muted />
+      <video src="/images/video-6.mp4" autoPlay loop muted />
       {/* <h1 className="home">EPIC</h1> */}
       <LoginForm />
       {/* <Cards /> */}
